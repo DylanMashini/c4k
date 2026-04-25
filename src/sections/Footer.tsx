@@ -8,7 +8,7 @@ export default function Footer() {
         ENGR 1010 Section 014_06 · University of Virginia
       </div>
       <div className="names" style={{ marginTop: 8, fontSize: 12, color: "var(--text-faint)" }}>
-        Prepared for Cullen Levesque &amp; Computers for Kids · Charlottesville, VA
+        Prepared for Computers for Kids · Charlottesville, VA
       </div>
     </footer>
   );

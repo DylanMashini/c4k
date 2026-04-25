@@ -3,11 +3,11 @@ export default function Printing() {
     <section className="section" id="printing">
       <div className="sec-head">
         <div className="sec-num">§ 04 — Printing the parts</div>
-        <h2>Slice once. Print twice. Fit forever.</h2>
+        <h2>Printing the Parts</h2>
         <p>
-          These settings were derived from three full iteration cycles. Earlier prints failed on thin walls
-          and over-aggressive supports — the values below are the ones that reliably produced clean prints
-          on the Bambu X1 Carbon.
+          Slice each <code>.3mf</code> with the settings below. These are the settings that produced clean
+          prints on the Bambu X1 Carbon — other FDM printers with a 0.4&nbsp;mm nozzle should work with the
+          same values.
         </p>
       </div>
 

@@ -3,11 +3,10 @@ export default function ShellAttach() {
     <section className="section" id="shell">
       <div className="sec-head">
         <div className="sec-num">§ 07 — Shell attachment</div>
-        <h2>The student&apos;s canvas.</h2>
+        <h2>Shell Attachment</h2>
         <p>
-          This is where students bring their design to life. The base frame exposes a pair of parallel
-          latch tracks along its left side — students print a mating &quot;peg&quot; into whatever shell they
-          design, and the two snap together with a satisfying click. No adhesive, fully removable.
+          The base frame has two latch tracks along its left side. Design a pair of mating pegs into your
+          shell — to the dimensions below — and the shell clips on with no adhesive.
         </p>
       </div>
 
@@ -15,12 +14,11 @@ export default function ShellAttach() {
         <div className="step-num">08</div>
         <div className="step-meta">
           <span>Student-designed</span>
-          <span>Reference: Printables #892907</span>
+          <span>Mating pegs</span>
         </div>
         <h3>Design the shell mating peg</h3>
         <p>
-          The base-frame latch track is modeled after the <em>Printables #892907 Latch Mechanism V2</em>. The
-          student&apos;s shell must include two mating pegs whose dimensions match the track:
+          Your shell must include two mating pegs whose dimensions match the latch track on the base frame:
         </p>
         <div className="specs" style={{ marginTop: 12 }}>
           <div className="row"><span className="k">Peg shaft</span><span className="v">4.0 mm × 6.0 mm</span></div>

@@ -12,11 +12,7 @@ export default function Tools() {
     <section className="section" id="tools">
       <div className="sec-head">
         <div className="sec-num">§ 03 — Tools required</div>
-        <h2>A modest toolkit.</h2>
-        <p>
-          Nothing exotic. Everything on this list should already live in the C4K prototyping cart. The only
-          consumable is PLA filament — any colour, though the iteration-3 reference prints were matte charcoal.
-        </p>
+        <h2>Tools Required</h2>
       </div>
 
       <div className="card-grid">

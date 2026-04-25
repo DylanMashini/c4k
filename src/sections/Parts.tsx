@@ -3,11 +3,9 @@ export default function Parts() {
     <section className="section" id="parts">
       <div className="sec-head">
         <div className="sec-num">§ 02 — Printed parts</div>
-        <h2>Know your components.</h2>
+        <h2>Printed Parts</h2>
         <p>
-          Before printing, take a moment to understand each part. The CAD renders below show the pieces in
-          their final revision — Iteration 3. Dimensions are in millimetres; Fusion source files are open in
-          the shared Fusion 360 team folder.
+          CAD renders of each printed part. Dimensions are in millimetres.
         </p>
       </div>
 
@@ -56,17 +54,9 @@ export default function Parts() {
       </div>
 
       <div className="part-row">
-        <div className="part-visual" style={{ display: "grid", placeItems: "center" }}>
+        <div className="part-visual">
           <div className="part-tag">02 · Extension Piece</div>
-          <svg width="60%" viewBox="0 0 200 140" fill="none" style={{ opacity: 0.45 }}>
-            <rect x="20" y="40" width="160" height="60" rx="6" stroke="currentColor" strokeWidth="1.5" strokeDasharray="4 4" />
-            <rect x="30" y="50" width="40" height="40" rx="3" stroke="currentColor" strokeWidth="1" />
-            <rect x="80" y="50" width="40" height="40" rx="3" stroke="currentColor" strokeWidth="1" />
-            <rect x="130" y="50" width="40" height="40" rx="3" stroke="currentColor" strokeWidth="1" />
-            <text x="100" y="130" textAnchor="middle" fontSize="8" fill="currentColor" fontFamily="JetBrains Mono">
-              OPTIONAL · EXTENDED CONFIG
-            </text>
-          </svg>
+          <img src="/parts/extension_raw.png" alt="Extension piece" />
         </div>
         <div className="part-info">
           <div className="id">PART-02 / Extension</div>

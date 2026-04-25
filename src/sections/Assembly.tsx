@@ -3,10 +3,10 @@ export default function Assembly() {
     <section className="section" id="assembly">
       <div className="sec-head">
         <div className="sec-num">§ 05 — Frame assembly</div>
-        <h2>Clip, press, and you&apos;re rolling.</h2>
+        <h2>Frame Assembly</h2>
         <p>
-          Work at a clean desk. Deburr any support scars with a hobby knife before you start. If a fit feels
-          forced — stop, sand the mating face, and try again. Nothing on this chassis should require glue.
+          Clean up any support scars with a hobby knife before you start. If a fit feels forced, stop and
+          sand the mating face — don&apos;t use glue.
         </p>
       </div>
 
@@ -18,13 +18,13 @@ export default function Assembly() {
         </div>
         <h3>Seat the wheel axle into the base frame</h3>
         <p>
-          Take the <strong>Base Frame</strong> and flip it upside-down. You&apos;ll see two round holes on the
-          underside, near the front edge. These accept the two pegs on top of <strong>Wheel Axle 1</strong>.
+          Flip the <strong>Base Frame</strong> upside-down. You&apos;ll see two round holes on the underside
+          near the rear edge — these accept the two pegs on top of <strong>Wheel Axle 1</strong>.
         </p>
         <ol>
-          <li>Align the axle so its two servo bays face forward (same direction as the base&apos;s latch tracks).</li>
+          <li>Align the axle so its two servo bays face the rear of the chassis.</li>
           <li>Press the pegs straight down into the matching holes — the fit is snug but not forced.</li>
-          <li>You should hear a soft click as the axle seats. It will not wiggle laterally when fully home.</li>
+          <li>The axle should not wiggle laterally when fully seated.</li>
         </ol>
         <div className="callout warn">
           <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -41,19 +41,19 @@ export default function Assembly() {
       <div className="step">
         <div className="step-num">02</div>
         <div className="step-meta">
-          <span>Est. 4 min</span>
-          <span>Hardware · M3 × 8 mm</span>
+          <span>Est. 5 min</span>
+          <span>2 × micro-servo</span>
         </div>
-        <h3>Lock the axle with two M3 screws</h3>
+        <h3>Install the two rear servos</h3>
         <p>
-          While the axle&apos;s peg joint is snug, two M3 screws from the underside ensure it can&apos;t
-          pop out under hard stops or when the shell is pulled off.
+          The two driven wheels each get their own SG90 micro-servo. Drop one into each rear servo bay.
         </p>
         <ol>
-          <li>Flip the chassis right-side up and confirm the axle is fully seated.</li>
-          <li>Find the two 3 mm holes on the underside of the axle flange.</li>
-          <li>Drive one M3 × 8 mm screw into each hole. Tighten until snug — do not over-torque; the PLA
-            threads will strip.</li>
+          <li>Orient each servo so its cable exits toward the centre of the chassis (cables route forward
+            into the micro:bit well).</li>
+          <li>Drop the servo body-first into its bay. The flange catches on the top of the bay — that&apos;s
+            what holds the servo vertically.</li>
+          <li>Secure each servo with the two stock screws through the flange into the PLA. Snug, not tight.</li>
         </ol>
       </div>
 
@@ -61,49 +61,54 @@ export default function Assembly() {
         <div className="step-num">03</div>
         <div className="step-meta">
           <span>Est. 2 min</span>
-          <span>Part 09 · Hardware</span>
+          <span>2 × rear wheel</span>
         </div>
-        <h3>Thread the dowel and mount the wheels</h3>
+        <h3>Mount the rear wheels onto the servos</h3>
         <p>
-          The two unpowered wheels run on a wooden dowel that passes through the axle part. This gives the
-          car a clean rolling contact without adding mechanical complexity.
+          With both servos installed, push a wheel onto each servo&apos;s output horn. The horn&apos;s splines
+          bite into the wheel hub for a press-fit drive — no screw needed for a typical C4K wheel.
         </p>
         <ol>
-          <li>Slide the 5 mm wooden dowel through the horizontal bore in Axle 1.</li>
-          <li>Press a wheel onto each dowel end — the wheels should spin freely but not slide off under
-            light lateral force.</li>
-          <li>The front (driven) wheels push directly onto each micro-servo&apos;s output horn — we install
-            those in the next step.</li>
+          <li>Centre the wheel on the servo spline and press straight on. Don&apos;t rock it side-to-side.</li>
+          <li>Spin each wheel by hand to confirm it&apos;s seated true — no wobble, no rub against the axle.</li>
+          <li>If a wheel slips on the spline, add the small servo screw through the wheel hub into the horn.</li>
         </ol>
       </div>
 
       <div className="step">
         <div className="step-num">04</div>
         <div className="step-meta">
+          <span>Est. 1 min</span>
+          <span>1 × swivel castor</span>
+        </div>
+        <h3>Install the front swivel castor</h3>
+        <p>
+          The front of the chassis rides on a single swivel castor wheel. The castor lets the car turn freely
+          when the rear servos drive at different speeds.
+        </p>
+        <ol>
+          <li>Locate the castor mount under the front of the Base Frame.</li>
+          <li>Press the castor&apos;s pin into the mount until it bottoms out and rotates freely.</li>
+          <li>With all three wheels installed, set the chassis on a flat surface — it should sit level on
+            both rear wheels and the castor.</li>
+        </ol>
+      </div>
+
+      <div className="step">
+        <div className="step-num">05</div>
+        <div className="step-meta">
           <span>Est. 5 min</span>
           <span>Optional · extended config</span>
         </div>
         <h3>Attach the extension piece (if needed)</h3>
         <p>
-          Using a shell longer than 5 inches? Skip this step unless you&apos;re in the extended configuration.
+          Using a shell longer than 5 inches? Skip this step otherwise.
         </p>
         <ol>
           <li>Align the extension&apos;s pegs with the two matching holes on the rear edge of the Base Frame.</li>
           <li>Press the extension into place — the locking tabs engage with an audible click.</li>
           <li>Install Wheel Axle 2 into the extension using the same peg-press method as Step 1.</li>
         </ol>
-        <div className="callout tip">
-          <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="12" cy="12" r="10" />
-            <path d="M12 16v-4M12 8h.01" />
-          </svg>
-          <div>
-            <strong>Level check</strong>
-            Place the chassis on a flat surface before moving on. All six contact points should touch the
-            surface. If one wheel is lifted, the extension isn&apos;t fully seated — press down along its
-            full length and re-check.
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -3,28 +3,11 @@ export default function Electronics() {
     <section className="section" id="electronics">
       <div className="sec-head">
         <div className="sec-num">§ 06 — Electronics &amp; wiring</div>
-        <h2>Get the micro:bit talking to the servos.</h2>
+        <h2>Electronics &amp; Wiring</h2>
         <p>
-          The chassis was laid out around the exact footprint of the BBC micro:bit V2 and the standard SG90
-          micro-servo. The micro:bit sits upright with its edge connector forward so you can hot-swap code
-          without disassembling anything.
+          The micro:bit sits upright in the central well with its edge connector facing forward, so you can
+          reflash code without pulling the car apart.
         </p>
-      </div>
-
-      <div className="step">
-        <div className="step-num">05</div>
-        <div className="step-meta">
-          <span>Est. 3 min</span>
-          <span>Part 06 · 2–3 servos</span>
-        </div>
-        <h3>Install the micro-servos</h3>
-        <ol>
-          <li>Orient each servo so its cable exits toward the rear of the frame.</li>
-          <li>Drop each servo body-first into one of the axle&apos;s servo bays. The flange lip catches on
-            the top of the bay — this is what holds the servo vertically.</li>
-          <li>Secure each servo with its two stock mounting screws through the flange into the PLA.</li>
-          <li>Press the output horn onto the drive wheel and attach the wheel to the servo spline.</li>
-        </ol>
       </div>
 
       <div className="step">
@@ -50,7 +33,7 @@ export default function Electronics() {
           <div>
             <strong>Battery orientation</strong>
             Red to positive, black to ground. Double-check before connecting to the edge connector —
-            reversed polarity can kill a micro:bit instantly and the C4K kit is not infinitely deep.
+            reversed polarity can kill a micro:bit instantly.
           </div>
         </div>
       </div>
@@ -69,11 +52,10 @@ export default function Electronics() {
           the micro:bit edge connector as follows:
         </p>
         <div className="specs" style={{ marginTop: 12 }}>
-          <div className="row"><span className="k">Left servo · signal</span><span className="v">P0</span></div>
-          <div className="row"><span className="k">Right servo · signal</span><span className="v">P1</span></div>
-          <div className="row"><span className="k">Third servo (optional)</span><span className="v">P2</span></div>
-          <div className="row"><span className="k">All servos · power</span><span className="v">3V rail</span></div>
-          <div className="row"><span className="k">All servos · ground</span><span className="v">GND rail</span></div>
+          <div className="row"><span className="k">Left rear servo · signal</span><span className="v">P0</span></div>
+          <div className="row"><span className="k">Right rear servo · signal</span><span className="v">P1</span></div>
+          <div className="row"><span className="k">Both servos · power</span><span className="v">3V rail</span></div>
+          <div className="row"><span className="k">Both servos · ground</span><span className="v">GND rail</span></div>
           <div className="row"><span className="k">Battery pack</span><span className="v">3V / GND (via edge connector)</span></div>
         </div>
         <div className="callout warn">
@@ -82,7 +64,7 @@ export default function Electronics() {
           </svg>
           <div>
             <strong>Current draw matters</strong>
-            Three SG90 servos at full stall pull ~0.75 A. The micro:bit&apos;s 3V rail is not rated for that —
+            Two SG90 servos at full stall pull ~0.5 A. The micro:bit&apos;s 3V rail isn&apos;t rated for that —
             power the servos directly from the battery pack&apos;s positive lead, and tie only the ground back
             through the micro:bit.
           </div>

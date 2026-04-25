@@ -10,7 +10,6 @@ import Printing from "./sections/Printing";
 import Assembly from "./sections/Assembly";
 import Electronics from "./sections/Electronics";
 import ShellAttach from "./sections/ShellAttach";
-import Testing from "./sections/Testing";
 import Footer from "./sections/Footer";
 
 const SECTIONS = [
@@ -22,7 +21,6 @@ const SECTIONS = [
   { id: "assembly", label: "Frame Assembly", num: "05" },
   { id: "electronics", label: "Electronics & Wiring", num: "06" },
   { id: "shell", label: "Shell Attachment", num: "07" },
-  { id: "testing", label: "Testing & Calibration", num: "08" },
 ];
 
 function App() {
@@ -62,7 +60,6 @@ function App() {
         <Assembly />
         <Electronics />
         <ShellAttach />
-        <Testing />
         <Footer />
       </main>
     </div>

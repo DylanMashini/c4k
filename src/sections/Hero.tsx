@@ -9,15 +9,9 @@ export default function Hero() {
       </div>
 
       <h1 className="reveal d2">
-        A standardized chassis for the{" "}
-        <span className="gradient-text">Micro:Bit</span> generation.
+        A standardized chassis for{" "}
+        <span className="gradient-text">Micro:Bit</span>
       </h1>
-
-      <p className="lede reveal d3">
-        This guide walks through the complete replication of the <em>Fast and Furious</em> RC car frame —
-        designed for Computers&nbsp;for&nbsp;Kids to give middle and high school students a durable,
-        customizable base so they can focus on what they love: code, wiring, and creative vehicle design.
-      </p>
 
       <div className="hero-cta reveal d4">
         <a href="#printing" className="btn primary">
@@ -47,10 +41,6 @@ export default function Hero() {
         <div className="kv">
           <span className="k">Skill level</span>
           <span className="v">Beginner</span>
-        </div>
-        <div className="kv">
-          <span className="k">Adhesive</span>
-          <span className="v">None required</span>
         </div>
       </div>
     </section>
