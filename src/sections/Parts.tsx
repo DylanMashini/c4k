@@ -12,7 +12,7 @@ export default function Parts() {
       <div className="part-row">
         <div className="part-visual">
           <div className="part-tag">01 · Base Frame</div>
-          <img src="/parts/base_frame_raw.png" alt="Base frame" />
+          <img src={`${import.meta.env.BASE_URL}parts/base_frame_raw.png`} alt="Base frame" />
         </div>
         <div className="part-info">
           <div className="id">PART-01 / Prototype 3 v14</div>
@@ -34,7 +34,7 @@ export default function Parts() {
       <div className="part-row reverse">
         <div className="part-visual">
           <div className="part-tag">03 · Wheel Axle 1</div>
-          <img src="/parts/axel1_raw.png" alt="Wheel Axle 1" />
+          <img src={`${import.meta.env.BASE_URL}parts/axel1_raw.png`} alt="Wheel Axle 1" />
         </div>
         <div className="part-info">
           <div className="id">PART-03 / Rear/Front Axle 5 in v67 v3</div>
@@ -56,7 +56,7 @@ export default function Parts() {
       <div className="part-row">
         <div className="part-visual">
           <div className="part-tag">02 · Extension Piece</div>
-          <img src="/parts/extension_raw.png" alt="Extension piece" />
+          <img src={`${import.meta.env.BASE_URL}parts/extension_raw.png`} alt="Extension piece" />
         </div>
         <div className="part-info">
           <div className="id">PART-02 / Extension</div>
