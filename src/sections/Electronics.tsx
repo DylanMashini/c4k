@@ -18,7 +18,7 @@ export default function Electronics() {
         </div>
         <h3>Seat the micro:bit &amp; battery pack</h3>
         <ol>
-          <li>Drop the BBC micro:bit into the raised central well. The edge connector should face forward;
+          <li>Drop the micro:bit into the raised central well. The edge connector should face forward;
             the 25-LED matrix faces up.</li>
           <li>The well is sized for a friction fit — the board should rest with its lower edge bottomed out
             and the top edge flush with the well wall.</li>

@@ -53,7 +53,6 @@ export default function Assembly() {
             into the micro:bit well).</li>
           <li>Drop the servo body-first into its bay. The flange catches on the top of the bay — that&apos;s
             what holds the servo vertically.</li>
-          <li>Secure each servo with the two stock screws through the flange into the PLA. Snug, not tight.</li>
         </ol>
       </div>
 
@@ -83,32 +82,9 @@ export default function Assembly() {
         </div>
         <h3>Install the front swivel castor</h3>
         <p>
-          The front of the chassis rides on a single swivel castor wheel. The castor lets the car turn freely
-          when the rear servos drive at different speeds.
+          The front of the chassis rides on a single swivel castor wheel. Install it under the front of the
+          Base Frame using the castor&apos;s included hardware.
         </p>
-        <ol>
-          <li>Locate the castor mount under the front of the Base Frame.</li>
-          <li>Press the castor&apos;s pin into the mount until it bottoms out and rotates freely.</li>
-          <li>With all three wheels installed, set the chassis on a flat surface — it should sit level on
-            both rear wheels and the castor.</li>
-        </ol>
-      </div>
-
-      <div className="step">
-        <div className="step-num">05</div>
-        <div className="step-meta">
-          <span>Est. 5 min</span>
-          <span>Optional · extended config</span>
-        </div>
-        <h3>Attach the extension piece (if needed)</h3>
-        <p>
-          Using a shell longer than 5 inches? Skip this step otherwise.
-        </p>
-        <ol>
-          <li>Align the extension&apos;s pegs with the two matching holes on the rear edge of the Base Frame.</li>
-          <li>Press the extension into place — the locking tabs engage with an audible click.</li>
-          <li>Install Wheel Axle 2 into the extension using the same peg-press method as Step 1.</li>
-        </ol>
       </div>
     </section>
   );

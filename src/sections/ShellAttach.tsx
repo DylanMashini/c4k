@@ -2,8 +2,8 @@ export default function ShellAttach() {
   return (
     <section className="section" id="shell">
       <div className="sec-head">
-        <div className="sec-num">§ 07 — Shell attachment</div>
-        <h2>Shell Attachment</h2>
+        <div className="sec-num">§ 07 — Shell attachment · optional</div>
+        <h2>Shell Attachment <span style={{ fontSize: "0.5em", fontFamily: "JetBrains Mono, monospace", color: "var(--text-faint)", textTransform: "uppercase", letterSpacing: "0.14em", verticalAlign: "middle", marginLeft: 12 }}>Optional</span></h2>
         <p>
           The base frame has two latch tracks along its left side. Design a pair of mating pegs into your
           shell — to the dimensions below — and the shell clips on with no adhesive.

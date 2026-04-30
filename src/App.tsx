@@ -20,7 +20,7 @@ const SECTIONS = [
   { id: "printing", label: "Printing the Parts", num: "04" },
   { id: "assembly", label: "Frame Assembly", num: "05" },
   { id: "electronics", label: "Electronics & Wiring", num: "06" },
-  { id: "shell", label: "Shell Attachment", num: "07" },
+  { id: "shell", label: "Shell Attachment (optional)", num: "07" },
 ];
 
 function App() {

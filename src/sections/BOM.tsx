@@ -12,7 +12,7 @@ const ROWS: Row[] = [
   { ix: "02", name: "Extension Piece", sub: "Optional — extends base to 8 inches for larger shells", kind: "Printed", qty: "0–1", source: "Prototype 3" },
   { ix: "03", name: "Wheel Axle 1", sub: "Non-extended configuration — houses 2 micro-servos", kind: "Printed", qty: "1", source: "Axel 5in" },
   { ix: "04", name: "Wheel Axle 2", sub: "Extended configuration — for 8-inch frame", kind: "Printed", qty: "0–1", source: "Axel 2" },
-  { ix: "05", name: "BBC micro:bit (V2)", sub: "Main controller — provided in the C4K kit", kind: "Electronic", qty: "1", source: "C4K kit" },
+  { ix: "05", name: "micro:bit (V2)", sub: "Main controller — provided in the C4K kit", kind: "Electronic", qty: "1", source: "C4K kit" },
   { ix: "06", name: "Micro-servo (SG90 / FS90)", sub: "Drives the two rear wheels", kind: "Electronic", qty: "2", source: "C4K kit" },
   { ix: "07", name: "AA battery pack (4×AA)", sub: "Powers servos + micro:bit via 3V rail", kind: "Electronic", qty: "1", source: "C4K kit" },
   { ix: "08", name: "Rear wheels", sub: "Standard C4K wheels — press-fit onto servo splines", kind: "Hardware", qty: "2", source: "C4K kit" },
